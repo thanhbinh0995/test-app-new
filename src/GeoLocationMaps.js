@@ -4,6 +4,7 @@ import mapboxgl from "mapbox-gl";
 import { useUpdateEffect } from "react-use";
 import "mapbox-gl/dist/mapbox-gl.css";
 
+mapboxgl.workerUrl = `/mapbox-gl-csp-worker.js`;
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 export const GeoLocationMaps = ({
