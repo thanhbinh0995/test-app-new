@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import "./App.css";
 import { GeoLocationMaps } from "./GeoLocationMaps";
 import { useState, useEffect } from "react";
